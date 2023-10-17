@@ -25,3 +25,27 @@ for count in numberss:
     else:
         neg_count +=1
 print(pos_count,neg_count)
+
+
+
+swap_list = ["doggie", "cat", "racoon", "kangroo"]
+
+initial_element = swap_list[0]
+last_element = swap_list[-1]
+
+list = swap_list
+
+list[0] = last_element
+list[-1] = initial_element
+
+print(swap_list)
+print(list)
+
+# swap_list = ["doggie", "cat", "racoon", "kangroo"]
+
+# list = swap_list
+# list[0] = swap_list[-1]
+# list[-1] = swap_list[0]
+
+# print(list)
+# print(swap_list)
